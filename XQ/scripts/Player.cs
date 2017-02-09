@@ -7,6 +7,9 @@ public class Player : MonoBehaviour
 
     public Animator anim;
 
+    private float inputH;
+    private float inputV;
+
     // Use this for initialization
     void Start()
     {
@@ -39,5 +42,25 @@ public class Player : MonoBehaviour
         {
             anim.Play("WALK00_L", -1, 0f);
         }
+        if (Input.GetMouseButtonDown(0)) {
+
+            int n = Random.Range(0, 2);
+
+            if (n == 0)
+            {
+
+                anim.Play("DAMAGED00", -1, 0f);
+            }
+            else {
+                anim.Play("DAMAGED01", -1, 0f);
+            }
+
+        }
+
+        inputH = Input.GetAxis("Horizontal");
+        inputV = Input.GetAxis("Vertical");
+
+        anim.SetFloat("inputH", inputH);
+        anim.SetFloat("inputV", inputV);
     }
 }
