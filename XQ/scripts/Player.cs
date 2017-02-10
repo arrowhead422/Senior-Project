@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
     {
 
 
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("2"))
         {
             anim.Play("WAIT04", -1, 0f);
         }
@@ -34,18 +34,7 @@ public class Player : MonoBehaviour
         {
             anim.Play("WAIT01", -1, 0f);
         }
-        if (Input.GetKeyDown("2"))
-        {
-            anim.Play("WAIT02", -1, 0f);
-        }
-        if (Input.GetKeyDown("up"))
-        {
-            anim.Play("WALK00_F", -1, 0f);
-        }
-        if (Input.GetKeyDown("left"))
-        {
-            anim.Play("WALK00_L", -1, 0f);
-        }
+       
         if (Input.GetMouseButtonDown(0)) {
 
             int n = Random.Range(0, 2);
@@ -68,6 +57,15 @@ public class Player : MonoBehaviour
         else
         {
             run = false;
+        }
+
+        if(Input.GetKey(KeyCode.Space))
+        {
+            anim.SetBool("jump", true);
+        }
+        else
+        {
+            anim.SetBool("jump", false);
         }
         inputH = Input.GetAxis("Horizontal");
         inputV = Input.GetAxis("Vertical");
