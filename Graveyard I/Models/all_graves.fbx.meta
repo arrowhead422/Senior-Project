@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: a646436a15270e14ba05ce8cb5cf6651
+timeCreated: 1463621858
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: brk_grave1_collider
+    100004: broken grave 1
+    100006: broken grave 2
+    100008: broken grave 3
+    100010: foliage
+    100012: grave 1
+    100014: grave 10
+    100016: grave 2
+    100018: grave 3
+    100020: grave 4
+    100022: grave 5
+    100024: grave 6
+    100026: grave 7
+    100028: grave 8
+    100030: grave 9
+    100032: grave 6 collider
+    100034: grave 8 collider
+    400000: //RootNode
+    400002: brk_grave1_collider
+    400004: broken grave 1
+    400006: broken grave 2
+    400008: broken grave 3
+    400010: foliage
+    400012: grave 1
+    400014: grave 10
+    400016: grave 2
+    400018: grave 3
+    400020: grave 4
+    400022: grave 5
+    400024: grave 6
+    400026: grave 7
+    400028: grave 8
+    400030: grave 9
+    400032: grave 6 collider
+    400034: grave 8 collider
+    2300000: brk_grave1_collider
+    2300002: broken grave 1
+    2300004: broken grave 2
+    2300006: broken grave 3
+    2300008: foliage
+    2300010: grave 1
+    2300012: grave 10
+    2300014: grave 2
+    2300016: grave 3
+    2300018: grave 4
+    2300020: grave 5
+    2300022: grave 6
+    2300024: grave 7
+    2300026: grave 8
+    2300028: grave 9
+    2300030: grave 6 collider
+    2300032: grave 8 collider
+    3300000: brk_grave1_collider
+    3300002: broken grave 1
+    3300004: broken grave 2
+    3300006: broken grave 3
+    3300008: foliage
+    3300010: grave 1
+    3300012: grave 10
+    3300014: grave 2
+    3300016: grave 3
+    3300018: grave 4
+    3300020: grave 5
+    3300022: grave 6
+    3300024: grave 7
+    3300026: grave 8
+    3300028: grave 9
+    3300030: grave 6 collider
+    3300032: grave 8 collider
+    4300000: broken grave 1
+    4300002: foliage
+    4300004: broken grave 2
+    4300006: broken grave 3
+    4300008: grave 1
+    4300010: grave 2
+    4300012: grave 3
+    4300014: grave 4
+    4300016: grave 5
+    4300018: grave 6
+    4300020: grave 7
+    4300022: grave 8
+    4300024: grave 9
+    4300026: grave 10
+    4300028: brk_grave1_collider
+    4300030: grave 8 collider
+    4300032: grave 6 collider
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
